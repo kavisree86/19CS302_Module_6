@@ -4,11 +4,14 @@
 To write a C program that demonstrates the use of typedef to create a new alias name for a data type.
 
 ## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+Start.
+Declare a variable value of type char.
+Prompt the user to enter a value.
+Read the value using scanf.
+Check eligible for marriage.
+If age >= 21, print "Eligible".
+If false, print " Not Eligible".
+End.
 
 ## Program:
 ```
@@ -18,8 +21,18 @@ Developed by:
 RegisterNumber:  
 */
 ```
+```
+#include <stdio.h>
+typedef int MyInt;
+int main() {
+ MyInt num = 10;
+ printf("The value of num is: %d\n", num);
+ return 0;
+}
+```
 
 ## Output:
+<img width="460" height="199" alt="image" src="https://github.com/user-attachments/assets/a5ee4842-88e0-4d73-bb77-4c3c7cf66b8d" />
 
 
 
